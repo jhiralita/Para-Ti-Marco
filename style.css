@@ -81,7 +81,7 @@ button {
         padding: 15px;
     }
 
-    .decora1, .decora2, .decora3, .decora4 {
+    .decora1, .decora2, .decora3 {
         width: 90%;
         border-radius: 20px;
     }
@@ -98,5 +98,9 @@ button {
 
     .respuesta {
         font-size: 13px;
+    }
+    .decora4 {
+        width: 90%;
+        border-radius: 20px;
     }
 }
