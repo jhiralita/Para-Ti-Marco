@@ -1,8 +1,4 @@
-
-
-/* 📱 RESPONSIVE PARA CELULAR */
-@media (max-width: 600px) {
-
+/* 🔹 ESTILOS NORMALES (PC Y GENERAL) */
 body {
     margin: 0;
     font-family: Arial;
@@ -36,16 +32,9 @@ body {
     margin: 20px auto;
     width: 60%;
 }
-.decora1{ 
-    width: 30px;
-    border-radius: 60px;
-}
-.decora2{ 
-    width: 30px;
-    border-radius: 60px;
-}
-.decora3{ 
-    width: 30px;
+
+.decora1, .decora2, .decora3 { 
+    width: 300px;
     border-radius: 60px;
 }
 
@@ -62,4 +51,25 @@ button {
     cursor: pointer;
     background: #e2acb5;
     color: white;
+}
+
+/* 📱 RESPONSIVE PARA CELULAR */
+@media (max-width: 600px) {
+
+    .raton {
+        width: 200px;
+    }
+
+    .carta {
+        width: 90%;
+    }
+
+    .decora1, .decora2, .decora3 {
+        width: 90%;
+    }
+
+    button {
+        width: 100%;
+        display: block;
+    }
 }
