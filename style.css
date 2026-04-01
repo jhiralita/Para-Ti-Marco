@@ -1,3 +1,4 @@
+/* 🔹 ESTILOS GENERALES */
 body {
     margin: 0;
     font-family: Arial;
@@ -31,15 +32,8 @@ body {
     margin: 20px auto;
     width: 60%;
 }
-.decora1{ 
-    width: 300px;
-    border-radius: 60px;
-}
-.decora2{ 
-    width: 300px;
-    border-radius: 60px;
-}
-.decora3{ 
+
+.decora1, .decora2, .decora3 {
     width: 300px;
     border-radius: 60px;
 }
@@ -57,4 +51,52 @@ button {
     cursor: pointer;
     background: #e2acb5;
     color: white;
+}
+
+.respuesta {
+    margin-top: 5px;
+}
+
+/* 📱 RESPONSIVE CELULAR */
+@media (max-width: 600px) {
+
+    .contenido {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .subtexto {
+        font-size: 14px;
+    }
+
+    .raton {
+        width: 200px;
+    }
+
+    .carta {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .decora1, .decora2, .decora3 {
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    .bloque {
+        margin: 15px 0;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+    .respuesta {
+        font-size: 13px;
+    }
 }
